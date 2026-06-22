@@ -1,15 +1,10 @@
-//Fazer um programa que pergunte o salário de um funcionário e apresente este salário com um aumento de 15%.
+//Fazer um algoritmo que pergunte 3 números e apresente a média aritmética entre estes 3 números.
 
-let salario, acrescimo;
+num1 = console.log("Digite o primerio número:");
+num2 = console.log("Digite o segundo número:");
+num3 = console.log("Digite o terceiro número:");
 
+Média = (num1 + num2 + num3) / 3
 
-console.log("informe o seu salario:");
-salario = 1000.00
+console.log("A média aritmética é:");
 
-acrescimo = salario * 15 / 100 ;
-salfinal = salario + acrescimo;
-
-console.log(`seu novo salario é R$ ${salfinal}`);
-
-
-//comentário realizado em 17/06/2026
